@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "mwi.dish.nsima", :name "Nsima", :country "MWI", :kind :dish, :summary "Malawian name for the maize-meal staple dish known regionally as ugali; Malawi's nsima culinary tradition was recognized by UNESCO in 2017.", :url "https://en.wikipedia.org/wiki/Ugali", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mwi.dish.chambo", :name "Chambo", :country "MWI", :kind :dish, :summary "Widely known bream-like fish from Lake Malawi, one of the most favored fish in Malawian cuisine, per the Cuisine of Malawi article.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Malawi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mwi.dish.kondowole", :name "Kondowole", :country "MWI", :kind :dish, :summary "Sticky staple meal made from cassava flour and water, primarily eaten in northern Malawi, per the Cuisine of Malawi article.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Malawi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mwi.beverage.thobwa", :name "Thobwa", :country "MWI", :kind :beverage, :summary "Fermented Malawian drink made from white maize and millet or sorghum, per the Cuisine of Malawi article.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Malawi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mwi.beverage.kachasu", :name "Kachasu", :country "MWI", :kind :beverage, :summary "African traditional distilled beverage made from maize and other ingredients, produced in several countries including Malawi.", :url "https://en.wikipedia.org/wiki/Kachasu", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mwi.product.tobacco", :name "Malawian tobacco", :country "MWI", :kind :product, :summary "Malawi's most important export crop, accounting for 65-80% of exports from 1921-1932 and 175,000 tonnes of production in 2011, per the Agriculture in Malawi article.", :url "https://en.wikipedia.org/wiki/Agriculture_in_Malawi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mwi.heritage.lake-malawi-national-park", :name "Lake Malawi National Park", :country "MWI", :kind :heritage, :summary "National park at the southern end of Lake Malawi, designated a UNESCO World Heritage Site in 1984 primarily for its exceptional fish diversity and evolutionary significance.", :url "https://en.wikipedia.org/wiki/Lake_Malawi_National_Park", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
