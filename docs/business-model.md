@@ -7,7 +7,7 @@ Independent public-sector market-entry compliance for Malawi.
   Act and its own PDF text was downloaded and confirmed genuine; the
   Act's own Section 1 short-title clause internally reads a different
   year, 2024, than its own Gazette/assent metadata, 2025 -- an honest,
-  independently-corroborated discrepancy, see `src/marketentry/facts.cljc`)
+  independently-corroborated discrepancy, see `src/marketentry/facts.cljk`)
 - Companies Registration and Intellectual Property Centre (CRIPC --
   successor, effective 1 April 2026, to the former Registrar General's
   Department) business/company registration -- Companies Act, 2013
