@@ -45,7 +45,7 @@ as every `cloud-itonami-iso3166-*` sibling in this fleet:
   referenced by the 2025 PPDA Act's own interpretation section, and a
   Malawi-specific representative/director exclusion-extension
   provision).
-- `src/statute/facts.cljc` -- general-law catalog: the Employment Act
+- `src/statute/facts.cljk` -- general-law catalog: the Employment Act
   (Chapter 55:01, Ministry-independent primary text confirmed directly
   via MalawiLII), the Value Added Tax Act (Chapter 42:02, with an
   honestly-flagged K10,000,000-vs-MK25,000,000 registration-threshold
@@ -76,7 +76,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Malawi:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
